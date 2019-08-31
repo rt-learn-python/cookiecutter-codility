@@ -16,9 +16,9 @@ install:
 	pip install -Ur requirements.txt
 
 doctest:
-	# @python -m doctest main.py -v
+	# @python -m doctest solution.py -v
 	@echo "Starting doctest...(no output means no failures)"
-	@python -m doctest main.py
+	@python -m doctest solution.py
 
 pytest:
 	@python -m pytest
@@ -26,7 +26,7 @@ pytest:
 test: doctest pytest
 
 testWithCoverage:
-	@python -m coverage run -m doctest main.py
+	@python -m coverage run -m doctest solution.py
 
 coverageTerminal: testWithCoverage
 	@echo ===== doctest coverage report =====
@@ -48,6 +48,6 @@ clean:
 	@echo ".coverage and htmlcov deleted"
 
 run:
-	@python main.py
+	@python solution.py
 
 .PHONY: help venv init clean install test doctest pytest run
