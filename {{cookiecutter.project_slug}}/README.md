@@ -1,6 +1,6 @@
 # Overview
 
-Python 3 Codility template. It uses a Makefile to manage your workflow.
+{{cookiecutter.project_short_description}}.It uses a Makefile to manage your workflow.
 
 ## Prerequisite
 

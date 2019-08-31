@@ -1,5 +1,7 @@
 # Overview
 
+Python 3 Codility template.
+
 Getting started cookiecutter from [Read the Docs](https://cookiecutter.readthedocs.io/en/latest/readme.html)
 
 ## Instruction
